@@ -145,7 +145,7 @@ export default function SummaryPage() {
                   <NotebookPen className="w-3 h-3" /> Bouquet Request
                 </div>
                 <p className="text-sm text-gray-700 bg-rose-50 rounded-xl px-3 py-2 italic">
-                  "{bouquetNote}"
+                  &quot;{bouquetNote}&quot;
                 </p>
               </div>
             )}

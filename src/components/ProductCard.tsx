@@ -80,7 +80,7 @@ export default function ProductCard({ product }: Props) {
             ) : (
               <>
                 <ShoppingCart className="w-4 h-4" />
-                {inCart ? "Add More" : "Add to Cart"}
+                {inCart ? "Add More" : "Buy Now"}
               </>
             )}
           </button>

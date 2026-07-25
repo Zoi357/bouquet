@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { Product, FlowerCategory } from "@/types/flower";
+import { Product } from "@/types/flower";
 import { flowers as mockFlowers } from "@/data/flowers";
 
 interface ProductStore {

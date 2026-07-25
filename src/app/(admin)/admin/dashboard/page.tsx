@@ -8,7 +8,7 @@ import {
   Flower2, LogOut, ShoppingBag, Clock, CheckCircle2,
   Truck, XCircle, ChevronDown, ChevronUp, Search,
   Package, Banknote, Smartphone, Gift, NotebookPen,
-  Phone, MapPin, User, RefreshCw, LayoutGrid,
+  MapPin, User, RefreshCw, LayoutGrid,
 } from "lucide-react";
 import { useAdminStore } from "@/store/useAdminStore";
 import { useOrderStore } from "@/store/useOrderStore";
@@ -284,7 +284,7 @@ function OrderCard({ order, expanded, onToggle, onStatusChange }: {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-gray-700 truncate">{item.product.name}</p>
-                    {item.cardMessage && <p className="text-xs text-rose-400 italic truncate">"{item.cardMessage}"</p>}
+                    {item.cardMessage && <p className="text-xs text-rose-400 italic truncate">&quot;{item.cardMessage}&quot;</p>}
                   </div>
                   <div className="text-right text-sm shrink-0">
                     <span className="text-gray-400">×{item.quantity}</span>
@@ -300,7 +300,7 @@ function OrderCard({ order, expanded, onToggle, onStatusChange }: {
               {form.bouquetNote && (
                 <div className="mb-2">
                   <p className="text-xs font-semibold text-gray-500 mb-0.5 flex items-center gap-1"><NotebookPen className="w-3 h-3" /> Bouquet Request</p>
-                  <p className="text-sm text-gray-700 italic bg-white rounded-lg px-3 py-2">"{form.bouquetNote}"</p>
+                  <p className="text-sm text-gray-700 italic bg-white rounded-lg px-3 py-2">&quot;{form.bouquetNote}&quot;</p>
                 </div>
               )}
               {form.orderNote && (

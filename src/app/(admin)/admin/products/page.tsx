@@ -431,7 +431,7 @@ export default function AdminProductsPage() {
 
               <div>
                 <label className="block text-xs font-semibold text-gray-600 mb-1">
-                  Badge <span className="text-gray-400 font-normal">(optional — e.g. "New", "Best Seller")</span>
+                  Badge <span className="text-gray-400 font-normal">(optional — e.g. &quot;New&quot;, &quot;Best Seller&quot;)</span>
                 </label>
                 <input
                   type="text" placeholder="e.g. New Arrival"
